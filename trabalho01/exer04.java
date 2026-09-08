@@ -15,6 +15,6 @@ public class exer04 {
          Double area =  (2  * (base + altura));
 
          System.out.print("Valor da altura: " + sd.format(altura) + "Valor da base: " + sd.format(base) + "\na area dessa figura é: " + sd.format(area));
-
+          sc.close();
     }
 }

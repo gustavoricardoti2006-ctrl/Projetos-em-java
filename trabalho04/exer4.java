@@ -33,6 +33,6 @@ public class exer4
 		}
 		
 		
-		
+		sc.close();
 	}
 }

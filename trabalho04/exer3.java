@@ -33,6 +33,6 @@ public class exer3
                 System.out.printf("Aluno " + (i+1) + "° - Acima da media\n");
             }
         }
-		
+		sc.close();
 	}
 }

@@ -19,6 +19,6 @@ public class exer1
 		    System.out.printf("vetor[" + i +"] = " + vetor[i] +"\n");
 		}
 		
-		
+		sc.close();
 	}
 }

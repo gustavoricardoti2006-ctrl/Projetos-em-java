@@ -38,5 +38,6 @@ public class exer5
 		for( i=0; i< j; i++){
 		   System.out.printf("vetor["+ i +"] = "+ impar[i]+ "\n");
 		}
+		sc.close();
 	}
 }

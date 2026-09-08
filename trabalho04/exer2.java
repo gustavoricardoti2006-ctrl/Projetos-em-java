@@ -38,5 +38,6 @@ public class exer2
 		
 		System.out.printf("o Maior valor é " + maior + " no vetor["+ indicemaior +"]\n");
 		System.out.printf("o Menor valor é " + menor + " no vetor["+ indicemenor +"]\n");
+		sc.close();
 	} 
 }

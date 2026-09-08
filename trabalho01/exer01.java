@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.text.DecimalFormat;
 
 
-public class MediaAluno{
+public class exer01{
     public static void main(String[] arg){
         Scanner sc = new Scanner(System.in);
         DecimalFormat sd = new DecimalFormat("#.00");
