@@ -1,15 +1,20 @@
 package trabalho06.exer02.circulo;
 
 public class Circulo {
-    double raio;
 
-    public void CalcularPi(){
-        double pi = 3.14 * (raio * raio);
-        System.out.printf("O valor de pi: "+ pi);
+    public double raio;
+
+    public double calcularArea() {
+        return Math.PI * Math.pow(raio, 2);
     }
 
-     public void calcularPerimetro(){
-        double perimetro = 3.14 * 2 * raio;
-        System.out.printf("O valor de pi: "+ perimetro);
+    public double calcularPerimetro() {
+        return 2 * Math.PI * raio;
+    }
+
+    public void exibirInformacoes() {
+        System.out.println("Raio: " + raio);
+        System.out.printf("Area: %.2f%n", calcularArea());
+        System.out.printf("Perimetro: %.2f%n", calcularPerimetro());
     }
 }

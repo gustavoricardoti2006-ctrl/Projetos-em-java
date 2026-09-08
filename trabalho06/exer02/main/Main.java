@@ -1,17 +1,17 @@
-package exer02.main;
+package trabalho06.exer02.main;
 
-import circulo.Circulo;
+import trabalho06.exer02.circulo.Circulo;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Livro livro1 = new Livro();
+        Circulo circ1 = new Circulo();
 
-        livro1.titulo = "One piece";
-        livro1.autor = "Oda";
-        livro1.numeroPaginas = 3300;
+        circ1.raio = 5.6;
 
-        livro1.exibirInformacoes();
+        circ1.exibirInformacoes();
+
+   
     }
 }
