@@ -1,13 +1,13 @@
 package trabalho07.exer01.dominio;
 
-public class Produto(){
+public class Produto {
 
     private String nome;
-    private Double preco;
-    private Int quantEstoque;
+    private double preco;
+    private int quantEstoque;
 
     //construtor
-    public Produto(String nome, Double valor, int estoque){
+    public Produto(String nome, double preco, int estoque){
        this.nome = nome;
        this.preco = preco;
        this.quantEstoque = estoque;
@@ -19,36 +19,39 @@ public class Produto(){
 
    //Getters
 
-    public getNome(){
+    public String getNome(){
         return nome;
     }
 
-    public getPreco(){
+    public double getPreco(){
         return preco;
     }
-    public getEstoque(){
+    public int getEstoque(){
         return quantEstoque;
     }
 
    //starters
 
-   public setNome(String nome){
+   public void setNome(String nome){
        this.nome = nome;
    } 
 
-   public setPreco(Double valor){
+   public void setPreco(double valor){
     if(valor > 0){
         this.preco = valor;
     }
    }
 
-   public setEstoque(int estoque){
-    this.quantEstoque = estoque
+   public void setEstoque(int estoque){
+    if(estoque > 0){
+        this.quantEstoque = estoque;
+    }
+    
    }
 
    //mettod
 
-   public Double calcularValorTotalEmEstoque(){
+   public double calcularValorTotalEmEstoque(){
     return preco * quantEstoque;
    }
 
