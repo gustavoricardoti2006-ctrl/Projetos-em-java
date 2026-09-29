@@ -1,4 +1,4 @@
-public class Exercicio4 {
+public class exer04 {
 
     public static void main(String[] args) {
 
