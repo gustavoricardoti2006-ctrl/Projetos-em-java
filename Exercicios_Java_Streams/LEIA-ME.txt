@@ -1,0 +1,19 @@
+EXERCICIOS JAVA - STREAMS E INTERFACES FUNCIONAIS
+
+Arquivos:
+- Exercicio1.java: filter, map, sorted e toList.
+- Exercicio2.java: mapToDouble, sum, average, max, Comparator e Optional.
+- Exercicio3.java: Collectors.groupingBy e partitioningBy.
+- TransformadorTexto.java e Exercicio4.java: interface funcional personalizada,
+  lambdas e method references.
+- Exercicio5.java: Predicate, Function e Consumer em um pipeline de Stream.
+
+Como executar:
+1. Abra a pasta no IntelliJ, Eclipse ou VS Code.
+2. Execute a classe Exercicio1, Exercicio2, Exercicio3, Exercicio4 ou Exercicio5.
+3. Para o Exercício 4, mantenha TransformadorTexto.java na mesma pasta de Exercicio4.java.
+
+Observação:
+- O método Stream.toList() exige Java 16 ou superior.
+- Recomenda-se Java 17 ou superior para executar todos os exercícios.
+- Os exercícios não precisam de arquivos externos nem de banco de dados.
